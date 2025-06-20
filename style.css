@@ -503,6 +503,42 @@ header div nav ul {
     display: flex;
     gap: 80px;
   }
+  .banner{
+    background-repeat: no-repeat;
+    height: 500px;
+
+    .text{
+      padding-top: 80px;
+    }
+  }
+  .u-banner{
+    display: flex;
+    gap: 30px;
+  }
+
+  .it-sec1{
+    margin-left: 120px;
+    .it-sec1-img{
+      img{
+        width: 380px;
+      }
+    }
+  }
+  .it-sec2{
+    .it-sec2-img{
+      img{
+        width: 380px;
+      }
+    }
+  }
+  .it-sec3{
+    margin-left: 120px;
+    .it-sec3-img{
+      img{
+        width: 380px;
+      }
+    }
+  }
 }
 
 
@@ -520,6 +556,31 @@ header div nav ul {
             font-size: small;
           }
         }
+      }
+    }
+  }
+
+  .it-sec1{
+    margin-left: 50px;
+  }
+  .it-sec3{
+    margin-left: 50px;
+    .it-sec3-txt{
+      margin-right: 20px;
+      p{
+        width: auto;
+    }
+    }
+  }
+  .first-woman{
+    .fw-txt{
+      h1{
+        font-size: 25px;
+      }
+    }
+    .fw-img{
+      img{
+        width: 200px;
       }
     }
   }
@@ -552,6 +613,86 @@ header div nav ul {
       padding-left: 40px;
       font-size: xx-large;
       font-weight: 1000;
+    }
+  }
+
+  .banner{
+    .text{
+      padding: 50px 0px 0px 50px;
+      p{
+        width: 100%;
+      }
+    }
+  }
+  .u-banner{
+    display: block;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    .u-bn-head{
+      width: auto;
+      padding-bottom: 20px;
+      font-size: medium;
+    }
+    .u-bn-txt{
+      width: 100%;
+      font-size: large;
+    }
+  }
+  .it-sec1{
+    display: block;
+    .it-sec1-img{
+      img{
+        width: 300px;
+        padding-bottom: 20px;
+      }
+    }
+    .it-sec1-txt{
+      width: auto;
+      text-align: justify;
+      margin-right: 50px;
+    }
+  }
+  .it-sec2{
+    display: block;
+    .it-sec2-txt{
+      width: auto;
+      margin-bottom: 50px;
+      text-align: justify;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+    .it-sec2-img{
+      img{
+        width: 300px;
+        margin-left: 50px;
+      }
+    }
+  }
+  .it-sec3{
+    display: block;
+    .it-sec3-img{
+      img{
+        width: 300px;
+        margin-bottom: 20px;
+      }
+    }
+    .it-sec3-txt{
+      margin-right: 50px;
+    }
+  }
+  .first-woman{
+    display: block;
+    padding-left: 50px;
+    .fw-txt{
+      width: auto;
+      padding-bottom: 50px;
+      padding-right: 50px;
+    }
+    .fw-img{
+     img{
+      width: 300px;
+     }
     }
   }
 }
