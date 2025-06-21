@@ -539,6 +539,23 @@ header div nav ul {
       }
     }
   }
+  .stats-sec{
+    display: flex;
+    gap: 100px;
+  }
+  .swoman-ctn{
+    margin-left: 20px;
+    margin-right: 20px;
+    .swoman-img{
+      img{
+        width: 500px;
+      }
+    }
+  }
+  .insight{
+   margin-left: 50px;
+   margin-right: 50px;
+  }
 }
 
 
@@ -581,6 +598,30 @@ header div nav ul {
     .fw-img{
       img{
         width: 200px;
+      }
+    }
+  }
+  .stats-sec{
+    margin-right: 150px;
+    display: flex;
+    gap: 50px;
+  }
+  .swoman-ctn{
+    .swoman-img{
+      img{
+        width: 350px;
+        height: 600px;
+      }
+    }
+  }
+  .high-rank{
+    display: block;
+    .high-rank-txt{
+      display: block;
+      margin: auto;
+      .high-rank-min-txt{
+        margin: 80px 50px;
+        width: auto;
       }
     }
   }
@@ -693,6 +734,53 @@ header div nav ul {
      img{
       width: 300px;
      }
+    }
+  }
+
+  
+  .stats-sec{
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 0;
+    .stats-sec-txt{
+     width: auto;
+     margin-right: 10px;
+     margin-bottom: 50px;
+    }
+    .main{
+      display: block;
+      width: auto;
+      .first{
+        display: block;
+        .stats{
+        margin-bottom: 20px;
+      }
+      }
+    }
+  }
+  .swoman-ctn{
+    padding: 20px 20px;
+    display: block;
+    .swoman-img{
+      img{
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        height: 400px;
+        width: 100%;
+      } 
+    }
+    .swoman-txt{
+      padding-bottom: 20px;
+    }
+  }
+  .mid-sec-head{
+    width: auto !important;
+  }
+  .insight-ctn{
+    display: block !important;
+    .insight-ctn1{
+      margin-top: 20px;
     }
   }
 }
