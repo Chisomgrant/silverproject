@@ -466,7 +466,7 @@ header div nav ul {
 
 .policy {
   display: flex;
-  gap: 175px;
+  gap: 150px;
   align-items: center;
   margin: 100px 100px 25px 100px;
   border-top: 1px solid #ff6600;
@@ -556,6 +556,25 @@ header div nav ul {
    margin-left: 50px;
    margin-right: 50px;
   }
+  .git-sec{
+    padding: 75px 200px 90px 200px;
+  }
+  footer{
+    .footer-ctn{
+      display: flex;
+      gap: 50px;
+    }
+    .policy{
+      display: flex;
+      gap: 80px;
+      .cpy-right{
+        font-size: 12px;
+      }
+      .p-policy{
+        font-size: 12px;
+      }
+    }
+  }
 }
 
 
@@ -624,6 +643,26 @@ header div nav ul {
         width: auto;
       }
     }
+  }
+  .git-sec{
+    h1{
+      font-size: 25px;
+    }
+    p{
+      font-size: 15px;
+    }
+  }
+  footer{
+    .footer-ctn{
+      margin-right: 100px;
+      display: flex;
+      gap: 15px;
+    }
+    .policy{
+        display: flex;
+        gap: 20px;
+        margin: 100px 50px 25px 50px;
+      }
   }
 }
 
@@ -781,6 +820,32 @@ header div nav ul {
     display: block !important;
     .insight-ctn1{
       margin-top: 20px;
+    }
+  }
+  .git-sec{
+    padding: 50px 5px 70px 5px;
+  }
+  footer{
+    .footer-ctn{
+      display: block;
+      .ft-logo{
+        width: auto;
+        padding-left: 50px;
+        padding-bottom: 20px;
+      }
+      .ft-info{
+        width: auto;
+        padding-left: 50px;
+      }
+    }
+    .policy{
+      display: block;
+      .ft-icons{
+        padding-bottom: 10px;
+        .cpy-right{
+          padding-bottom: 10px;
+        }
+      }
     }
   }
 }
