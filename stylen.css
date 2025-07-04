@@ -351,6 +351,56 @@ footer {
 
 /* it consulting page ends */
 
+/* Blog page starts */
+
+.blog-bn{
+    background-image: url(images/blog-page/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    color: white;
+    padding-top: 200px;
+    h1{
+        font-size: 50px;
+        font-weight: 900;
+    }
+}
+
+.blog-sec1{
+    margin-top: 80px;
+    .box1{
+        border: 1px solid rgb(201, 199, 199);
+        margin: 25px;
+        padding: 20px 20px;
+        border-radius: 10px;
+        p{
+            color: #ff6600;
+            font-size: 13px;
+        }
+        .b1{
+            position: relative;
+            left: 250px;
+        }
+        .b2{
+            position: relative;
+            top: 180px;
+            left: 230px;
+        }
+        .b3{
+            position: relative;
+            top: 60px;
+            left: 250px;
+        }
+        .b4{
+            position: relative;
+            top: 40px;
+            left: 250px;
+        }
+    }
+}
+
+/* Blog page ends */
+
 /* media query */
 @media (max-width: 1285px) {
   nav {
@@ -411,7 +461,7 @@ footer {
       }
     }
   }
-  /* conatct page starts */
+  /* it consulting starts */
 
   .consult-banner {
     height: 500px;
@@ -421,7 +471,37 @@ footer {
     padding: 70px 0;
   }
 
-  /* conatct page ends */
+ /* it consulting ends */
+
+ /* blog page starts */
+
+ .blog-bn{
+    height: 500px;
+ }
+ .blog-sec1{
+    .box1{
+        .b1{
+            position: relative;
+            left: 200px;
+        }
+        .b2{
+            position: relative;
+            top: 130px;
+            left: 200px;
+        }
+        .b3{
+            position: relative;
+            top: 30px;
+            left: 200px;
+        }
+        .b4{
+            position: relative;
+            top: 0;
+            left: 200px;
+        }
+    }
+}
+ /* blog page ends */
 }
 @media (max-width: 915px) {
   /* contact page starts */
@@ -446,6 +526,40 @@ footer {
   }
 
   /* it consulting page ends */
+
+  /* blog page starts */
+
+ .blog-sec1{
+    .box1{
+        h5{
+            font-size: 14px;
+        }
+        p{
+            font-size: 11px;
+        }
+        .b1{
+            position: relative;
+            left: 120px;
+        }
+        .b2{
+            position: relative;
+            top: 50px;
+            left: 120px;
+        }
+        .b3{
+            position: relative;
+            top: 0;
+            left: 120px;
+        }
+        .b4{
+            position: relative;
+            top: 0;
+            left: 120px;
+        }
+    }
+}  
+
+  /* blog page ends */
 }
 @media (max-width: 770px) {
   .sec1 {
@@ -489,8 +603,70 @@ footer {
   }
 
   /* contact-page ends */
+
+  /* blog page starts */
+
+ .blog-sec1{
+    .box1{
+        h5{
+            font-size: 18px;
+            padding-top: 20px;
+        }
+        p{
+            font-size: 14px;
+        }
+        .b1{
+            position: relative;
+            left: 400px;
+        }
+        .b2{
+            position: relative;
+            top: 0;
+            left: 400px;
+        }
+        .b3{
+            position: relative;
+            top: 0;
+            left: 400px;
+        }
+        .b4{
+            position: relative;
+            top: 0;
+            left: 400px;
+        }
+    }
+}  
+
+  /* blog page ends */
 }
 @media (max-width: 440px) {
+    /* blog page starts */
+
+     .blog-sec1{
+    .box1{
+        .b1{
+            position: relative;
+            left: 250px;
+        }
+        .b2{
+            position: relative;
+            top: 0;
+            left: 250px;
+        }
+        .b3{
+            position: relative;
+            top: 0;
+            left: 250px;
+        }
+        .b4{
+            position: relative;
+            top: 0;
+            left: 250px;
+        }
+    }
+}  
+
+    /* blog page ends */
 }
 @media (max-width: 375px) {
   /* contact us page starts  */
@@ -504,4 +680,32 @@ footer {
     }
   }
   /* contact us page ends */
+
+    /* blog page starts */
+
+     .blog-sec1{
+    .box1{
+        .b1{
+            position: relative;
+            left: 200px;
+        }
+        .b2{
+            position: relative;
+            top: 0;
+            left: 200px;
+        }
+        .b3{
+            position: relative;
+            top: 0;
+            left: 200px;
+        }
+        .b4{
+            position: relative;
+            top: 0;
+            left: 200px;
+        }
+    }
+}  
+
+    /* blog page ends */
 }
