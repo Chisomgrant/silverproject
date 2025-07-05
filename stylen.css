@@ -251,6 +251,11 @@ footer {
         padding: 10px 30px;
         margin-top: 20px;
       }
+      a:hover {
+        background-color: white;
+        border: 1px solid rgb(4, 4, 128);
+        color: black;
+      }
     }
   }
 }
@@ -329,7 +334,7 @@ footer {
 
 .off-sec {
   margin: 100px 0;
-  h3{
+  h3 {
     font-weight: 700;
   }
   .off-box {
@@ -338,11 +343,11 @@ footer {
     height: 220px;
     border-radius: 30px;
     margin-top: 20px;
-    img{
-        padding: 20px 0 0 0;
+    img {
+      padding: 20px 0 0 0;
     }
-    h5{
-        padding: 10px 0;
+    h5 {
+      padding: 10px 0;
     }
   }
 }
@@ -353,74 +358,150 @@ footer {
 
 /* news page starts */
 
-.news-bn{
-    background-image: url(images/news-page/banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50vh;
-    color: white;
-    padding-top: 200px;
-    h1{
-        font-size: 50px;
-        font-weight: 900;
-    }
+.news-bn {
+  background-image: url(images/news-page/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  color: white;
+  padding-top: 200px;
+  h1 {
+    font-size: 50px;
+    font-weight: 900;
+  }
 }
 
-.news-sec1{
-    margin-top: 80px;
-    .box1{
-        border: 1px solid rgb(201, 199, 199);
-        margin: 25px;
-        padding: 20px 20px;
-        border-radius: 10px;
-        p{
-            color: #ff6600;
-            font-size: 13px;
-        }
-        .b1{
-            position: relative;
-            left: 250px;
-        }
-        .b2{
-            position: relative;
-            top: 180px;
-            left: 230px;
-        }
-        .b3{
-            position: relative;
-            top: 60px;
-            left: 250px;
-        }
-        .b4{
-            position: relative;
-            top: 40px;
-            left: 250px;
-        }
+.news-sec1 {
+  margin-top: 80px;
+  .box1 {
+    border: 1px solid rgb(201, 199, 199);
+    margin: 25px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    p {
+      color: #ff6600;
+      font-size: 13px;
     }
+    .b1 {
+      position: relative;
+      left: 250px;
+    }
+    .b2 {
+      position: relative;
+      top: 180px;
+      left: 230px;
+    }
+    .b3 {
+      position: relative;
+      top: 60px;
+      left: 250px;
+    }
+    .b4 {
+      position: relative;
+      top: 40px;
+      left: 250px;
+    }
+  }
 }
 
 /* news page ends */
 
 /* business strategy page starts */
 
-.bus-banner{
-    background-image: url(images/bus-strat-page/banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 75vh;
-    padding-top: 150px;
-    color: white;
-    p{
-        font-size: larger;
-        font-weight: 500;
-    }
-    h1{
-        font-size: 50px;
-        font-weight: 900;
-    }
+.bus-banner {
+  background-image: url(images/bus-strat-page/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+  padding-top: 150px;
+  color: white;
+  p {
+    font-size: larger;
+    font-weight: 500;
+  }
+  h1 {
+    font-size: 50px;
+    font-weight: 900;
+  }
 }
 
 /* business strategy page ends */
+
+/* jobs page starts */
+
+.job-bn {
+  background-image: url(images/jobs-page/jobs-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+  padding-top: 150px;
+  color: white;
+  p {
+    font-size: larger;
+    font-weight: 500;
+  }
+  h1 {
+    font-size: 50px;
+    font-weight: 900;
+  }
+}
+
+.job-sec1 {
+  margin: 100px 0;
+  .box {
+    height: 500px;
+    box-shadow: 5px 5px 5px 5px rgb(236, 235, 235);
+    border-radius: 30px;
+    padding: 40px 10px 0 20px;
+    h5 {
+      font-size: 16px;
+    }
+    .location {
+      font-size: 14px;
+      color: rgb(75, 74, 74);
+    }
+    h4 {
+      padding-top: 40px;
+    }
+    .col-or {
+      font-size: 12px;
+      color: #ff6600;
+    }
+    h3 {
+      font-weight: 700;
+      font-size: 24px;
+    }
+    .r3 {
+      margin-top: 35px;
+    }
+    a {
+      text-decoration: none;
+      padding: 20px 20px;
+      background-color: #ff6600;
+      color: white;
+      border-radius: 5px;
+    }
+    a:hover {
+      background-color: white;
+      border: 1px solid rgb(4, 4, 128);
+      color: black;
+    }
+    .a1 {
+      margin-top: 45px;
+    }
+    .a2 {
+      margin-top: 15px;
+    }
+  }
+  .r2 {
+    margin-top: 50px;
+  }
+  h1 {
+    padding-bottom: 35px;
+  }
+}
+
+/* jobs page ends */
 
 /* media query */
 @media (max-width: 1285px) {
@@ -492,46 +573,58 @@ footer {
     padding: 70px 0;
   }
 
- /* it consulting page ends */
+  /* it consulting page ends */
 
- /* news page starts */
+  /* news page starts */
 
- .news-bn{
+  .news-bn {
     height: 500px;
- }
- .news-sec1{
-    .box1{
-        .b1{
-            position: relative;
-            left: 200px;
-        }
-        .b2{
-            position: relative;
-            top: 130px;
-            left: 200px;
-        }
-        .b3{
-            position: relative;
-            top: 30px;
-            left: 200px;
-        }
-        .b4{
-            position: relative;
-            top: 0;
-            left: 200px;
-        }
+  }
+  .news-sec1 {
+    .box1 {
+      .b1 {
+        position: relative;
+        left: 200px;
+      }
+      .b2 {
+        position: relative;
+        top: 130px;
+        left: 200px;
+      }
+      .b3 {
+        position: relative;
+        top: 30px;
+        left: 200px;
+      }
+      .b4 {
+        position: relative;
+        top: 0;
+        left: 200px;
+      }
     }
-}
- /* news page ends */
+  }
+  /* news page ends */
 
- /* business-strategy page starts */
+  /* business-strategy page starts */
 
-.bus-banner{
+  .bus-banner {
     height: 500px;
-}
+  }
 
- /* business-strategy page ends */
+  /* business-strategy page ends */
 
+  /* jobs page starts */
+
+  .job-bn {
+    height: 500px;
+  }
+  .job-sec1 {
+    .box {
+      height: 520px;
+    }
+  }
+
+  /* jobs page ends */
 }
 @media (max-width: 915px) {
   /* contact page starts */
@@ -549,9 +642,9 @@ footer {
 
   /* it consulting page starts */
 
-  .off-sec{
-    .off-box{
-        height: 250px;
+  .off-sec {
+    .off-box {
+      height: 250px;
     }
   }
 
@@ -559,37 +652,50 @@ footer {
 
   /* news page starts */
 
- .news-sec1{
-    .box1{
-        h5{
-            font-size: 14px;
-        }
-        p{
-            font-size: 11px;
-        }
-        .b1{
-            position: relative;
-            left: 120px;
-        }
-        .b2{
-            position: relative;
-            top: 50px;
-            left: 120px;
-        }
-        .b3{
-            position: relative;
-            top: 0;
-            left: 120px;
-        }
-        .b4{
-            position: relative;
-            top: 0;
-            left: 120px;
-        }
+  .news-sec1 {
+    .box1 {
+      h5 {
+        font-size: 14px;
+      }
+      p {
+        font-size: 11px;
+      }
+      .b1 {
+        position: relative;
+        left: 120px;
+      }
+      .b2 {
+        position: relative;
+        top: 50px;
+        left: 120px;
+      }
+      .b3 {
+        position: relative;
+        top: 0;
+        left: 120px;
+      }
+      .b4 {
+        position: relative;
+        top: 0;
+        left: 120px;
+      }
     }
-}  
+  }
 
   /* news page ends */
+
+  /* jobs page starts */
+
+  .job-sec1 {
+    .box {
+      height: 650px;
+      .a2 {
+        margin-top: 45px;
+      }
+    }
+  }
+
+  /* jobs page ends */
 }
 @media (max-width: 770px) {
   .sec1 {
@@ -636,67 +742,104 @@ footer {
 
   /* news page starts */
 
- .news-sec1{
-    .box1{
-        h5{
-            font-size: 18px;
-            padding-top: 20px;
-        }
-        p{
-            font-size: 14px;
-        }
-        .b1{
-            position: relative;
-            left: 400px;
-        }
-        .b2{
-            position: relative;
-            top: 0;
-            left: 400px;
-        }
-        .b3{
-            position: relative;
-            top: 0;
-            left: 400px;
-        }
-        .b4{
-            position: relative;
-            top: 0;
-            left: 400px;
-        }
+  .news-sec1 {
+    .box1 {
+      h5 {
+        font-size: 18px;
+        padding-top: 20px;
+      }
+      p {
+        font-size: 14px;
+      }
+      .b1 {
+        position: relative;
+        left: 400px;
+      }
+      .b2 {
+        position: relative;
+        top: 0;
+        left: 400px;
+      }
+      .b3 {
+        position: relative;
+        top: 0;
+        left: 400px;
+      }
+      .b4 {
+        position: relative;
+        top: 0;
+        left: 400px;
+      }
     }
-}  
+  }
 
   /* news page ends */
+
+  /* jobs page starts */
+
+  .job-sec1 {
+    .box {
+      height: 550px;
+      .a1 {
+        margin-top: 30px;
+      }
+      .a10 {
+        margin-top: 20px;
+      }
+      .a2 {
+        margin-top: 5px;
+      }
+    }
+  }
+
+  /* jobs page ends */
 }
 @media (max-width: 440px) {
-    /* news page starts */
+  /* news page starts */
 
-     .news-sec1{
-    .box1{
-        .b1{
-            position: relative;
-            left: 250px;
-        }
-        .b2{
-            position: relative;
-            top: 0;
-            left: 250px;
-        }
-        .b3{
-            position: relative;
-            top: 0;
-            left: 250px;
-        }
-        .b4{
-            position: relative;
-            top: 0;
-            left: 250px;
-        }
+  .news-sec1 {
+    .box1 {
+      .b1 {
+        position: relative;
+        left: 250px;
+      }
+      .b2 {
+        position: relative;
+        top: 0;
+        left: 250px;
+      }
+      .b3 {
+        position: relative;
+        top: 0;
+        left: 250px;
+      }
+      .b4 {
+        position: relative;
+        top: 0;
+        left: 250px;
+      }
     }
-}  
+  }
 
-    /* news page ends */
+  /* news page ends */
+
+  /* jobs page starts */
+
+  .job-sec1 {
+    .box {
+      .a1 {
+        margin-top: 45px;
+      }
+      .a10 {
+        margin-top: 45px;
+      }
+      .a2 {
+        margin-top: 15px;
+      }
+    }
+  }
+
+  /* jobs page ends */
 }
 @media (max-width: 375px) {
   /* contact us page starts  */
@@ -711,31 +854,31 @@ footer {
   }
   /* contact us page ends */
 
-    /* news page starts */
+  /* news page starts */
 
-     .news-sec1{
-    .box1{
-        .b1{
-            position: relative;
-            left: 200px;
-        }
-        .b2{
-            position: relative;
-            top: 0;
-            left: 200px;
-        }
-        .b3{
-            position: relative;
-            top: 0;
-            left: 200px;
-        }
-        .b4{
-            position: relative;
-            top: 0;
-            left: 200px;
-        }
+  .news-sec1 {
+    .box1 {
+      .b1 {
+        position: relative;
+        left: 200px;
+      }
+      .b2 {
+        position: relative;
+        top: 0;
+        left: 200px;
+      }
+      .b3 {
+        position: relative;
+        top: 0;
+        left: 200px;
+      }
+      .b4 {
+        position: relative;
+        top: 0;
+        left: 200px;
+      }
     }
-}  
+  }
 
-    /* news page ends */
+  /* news page ends */
 }
