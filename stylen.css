@@ -351,9 +351,9 @@ footer {
 
 /* it consulting page ends */
 
-/* Blog page starts */
+/* news page starts */
 
-.blog-bn{
+.news-bn{
     background-image: url(images/news-page/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -366,7 +366,7 @@ footer {
     }
 }
 
-.blog-sec1{
+.news-sec1{
     margin-top: 80px;
     .box1{
         border: 1px solid rgb(201, 199, 199);
@@ -399,7 +399,28 @@ footer {
     }
 }
 
-/* Blog page ends */
+/* news page ends */
+
+/* business strategy page starts */
+
+.bus-banner{
+    background-image: url(images/bus-strat-page/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    padding-top: 150px;
+    color: white;
+    p{
+        font-size: larger;
+        font-weight: 500;
+    }
+    h1{
+        font-size: 50px;
+        font-weight: 900;
+    }
+}
+
+/* business strategy page ends */
 
 /* media query */
 @media (max-width: 1285px) {
@@ -461,7 +482,7 @@ footer {
       }
     }
   }
-  /* it consulting starts */
+  /* it consulting page starts */
 
   .consult-banner {
     height: 500px;
@@ -471,14 +492,14 @@ footer {
     padding: 70px 0;
   }
 
- /* it consulting ends */
+ /* it consulting page ends */
 
- /* blog page starts */
+ /* news page starts */
 
- .blog-bn{
+ .news-bn{
     height: 500px;
  }
- .blog-sec1{
+ .news-sec1{
     .box1{
         .b1{
             position: relative;
@@ -501,7 +522,16 @@ footer {
         }
     }
 }
- /* blog page ends */
+ /* news page ends */
+
+ /* business-strategy page starts */
+
+.bus-banner{
+    height: 500px;
+}
+
+ /* business-strategy page ends */
+
 }
 @media (max-width: 915px) {
   /* contact page starts */
@@ -527,9 +557,9 @@ footer {
 
   /* it consulting page ends */
 
-  /* blog page starts */
+  /* news page starts */
 
- .blog-sec1{
+ .news-sec1{
     .box1{
         h5{
             font-size: 14px;
@@ -559,7 +589,7 @@ footer {
     }
 }  
 
-  /* blog page ends */
+  /* news page ends */
 }
 @media (max-width: 770px) {
   .sec1 {
@@ -604,9 +634,9 @@ footer {
 
   /* contact-page ends */
 
-  /* blog page starts */
+  /* news page starts */
 
- .blog-sec1{
+ .news-sec1{
     .box1{
         h5{
             font-size: 18px;
@@ -637,12 +667,12 @@ footer {
     }
 }  
 
-  /* blog page ends */
+  /* news page ends */
 }
 @media (max-width: 440px) {
-    /* blog page starts */
+    /* news page starts */
 
-     .blog-sec1{
+     .news-sec1{
     .box1{
         .b1{
             position: relative;
@@ -666,7 +696,7 @@ footer {
     }
 }  
 
-    /* blog page ends */
+    /* news page ends */
 }
 @media (max-width: 375px) {
   /* contact us page starts  */
@@ -681,9 +711,9 @@ footer {
   }
   /* contact us page ends */
 
-    /* blog page starts */
+    /* news page starts */
 
-     .blog-sec1{
+     .news-sec1{
     .box1{
         .b1{
             position: relative;
@@ -707,5 +737,5 @@ footer {
     }
 }  
 
-    /* blog page ends */
+    /* news page ends */
 }
