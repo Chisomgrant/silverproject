@@ -503,6 +503,48 @@ footer {
 
 /* jobs page ends */
 
+/* engineering operations page starts */
+
+.eng-banner {
+  background-image: url(images/eng-operation-page/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 180px;
+  height: 80vh;
+  p {
+    font-size: larger;
+    font-weight: 500;
+  }
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+}
+
+/* engineering operations page ends */
+
+/* financial consulting page starts */
+
+.fcon-banner {
+  background-image: url(images/financial-consulting-page/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  color: white;
+  padding-top: 170px;
+  p {
+    font-size: larger;
+    font-weight: 500;
+  }
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+}
+
+/* financial consulting page ends */
+
 /* media query */
 @media (max-width: 1285px) {
   nav {
@@ -625,6 +667,22 @@ footer {
   }
 
   /* jobs page ends */
+
+  /* engineering operations starts */
+
+  .eng-banner {
+    height: 500px;
+  }
+
+  /* engineering operations ends */
+
+  /* financial consulting page starts */
+
+  .fcon-banner {
+    height: 500px;
+  }
+
+  /* financial consulting page ends */
 }
 @media (max-width: 915px) {
   /* contact page starts */
