@@ -159,7 +159,6 @@ footer {
     }
     ul {
       li {
-        list-style-type: none;
         padding-bottom: 20px;
         a {
           color: #262626;
@@ -544,6 +543,29 @@ footer {
 }
 
 /* financial consulting page ends */
+
+/* education/training page starts */
+.menu2 {
+  margin-left: 80px;
+  ul {
+    li {
+      padding-left: 20px;
+      a {
+        color: rgb(151, 150, 150);
+        font-weight: 700;
+        font-size: 20px;
+      }
+    }
+  }
+}
+.nav-end {
+  color: white;
+    p {
+      font-size: 12px;
+    }
+}
+
+/* education/training page ends */
 
 /* media query */
 @media (max-width: 1285px) {
